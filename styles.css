@@ -1,1 +1,9 @@
-
+:root {
+    --main-bg: #f2f2f2; 
+    --text-color: #333; 
+    --accent-color: #3498db; 
+    --secondary-bg: #fff;
+    --link-color: #3498db; 
+    --link-hover: #2980b9;
+     --button-bg-color: #2ecc71; 
+  }
