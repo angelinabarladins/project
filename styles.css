@@ -5,5 +5,7 @@
     --secondary-bg: #fff;
     --link-color: #3498db; 
     --link-hover: #2980b9;
-     --button-bg-color: #2ecc71; 
+    --button-bg-color: #2ecc71; 
+    --header-font: 'Open Sans', sans-serif;
+    --body-font: 'Open Sans', sans-serif;
   }
