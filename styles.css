@@ -612,3 +612,31 @@ main {
   text-align:justify;
   font-size: 1.1em;
 }
+
+.confirmation-page {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 800px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.confirmation-page h2 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.confirmation-page .social-buttons {
+  margin-top: 30px;
+}
+
+.confirmation-page .social-buttons h3 {
+  margin-bottom: 10px;
+  font-size: 1.1em;
+}
+
+.confirmation-page .social-buttons img {
+  width: 30px;
+  margin: 0 5px;
+}
