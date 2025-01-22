@@ -674,3 +674,21 @@ main {
   margin-bottom: 10px;
   border-radius: 5px;
 }
+
+.button-back {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #e75b5b;
+  color: white;
+  text-decoration: none;
+  font-size: 1.1em;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.button-back:hover {
+  background-color: #cc4c4c;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
