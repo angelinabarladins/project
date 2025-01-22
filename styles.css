@@ -704,6 +704,36 @@ footer .container {
   color: #777777;
 }
 
+.social-links {
+  display: flex;
+  gap: 20px; 
+  justify-content: center;
+}
+
+.social-link {
+  text-decoration: none;
+  color: #000;
+  display: flex;
+  align-items: center;
+  transition: color 0.3s ease;
+}
+
+.social-link img {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+}
+
+.social-link:hover {
+  color: #e75b5b; 
+  text-decoration: underline;
+}
+
+.required {
+  color: #e75b5b;
+  margin-left: 3px;
+}
+
 @media (max-width: 768px) {
   .container {
     width: 95%;
