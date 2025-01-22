@@ -69,3 +69,17 @@ header nav a img {
   width: 20px;
   height: 20px;
 }
+
+.speech-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-right: 0; 
+}
+
+.speech-button img {
+  width: 25px;
+  height: 25px;
+  display: block;
+}
