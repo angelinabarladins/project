@@ -279,3 +279,51 @@ main {
   background-color: #cc4c4c;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
+
+.benefits-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.benefit-card {
+  width: calc(50% - 20px);
+  background-color: transparent;
+  border: 1px solid #333;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 5px;
+  text-align: left;
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.benefit-card::before {
+  display: none;
+}
+
+.benefit-card img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  float: left;
+  margin-right: 10px;
+}
+
+.benefit-card h3 {
+  font-size: 1.2rem;
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-weight: 510;
+  display: block;
+  overflow: hidden;
+}
+
+.benefit-card p {
+  font-size: 0.9rem;
+  line-height: 1.4;
+  color: #777777;
+  text-align: justify;
+  clear: left;
+}
