@@ -1,11 +1,71 @@
-:root {
-    --main-bg: #f2f2f2; 
-    --text-color: #333; 
-    --accent-color: #3498db; 
-    --secondary-bg: #fff;
-    --link-color: #3498db; 
-    --link-hover: #2980b9;
-    --button-bg-color: #2ecc71; 
-    --header-font: 'Open Sans', sans-serif;
-    --body-font: 'Open Sans', sans-serif;
-  }
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f5f0;
+  color: #333333;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  width: 90%;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+header {
+  background-color: #fff;
+  padding: 10px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  font-size: 1.5em;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+header .logo img {
+  margin-right: 10px;
+  width: 50px;
+  height: 50px;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #333333;
+  margin-left: 20px;
+  transition: color 0.3s ease;
+  font-size: 1.1em;
+  display: flex;
+  align-items: center;
+}
+
+header nav a:hover {
+  color: #e75b5b;
+}
+
+header nav a img {
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+}
