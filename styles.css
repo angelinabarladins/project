@@ -443,3 +443,15 @@ main {
   font-size: 0.8em;
   color: #666;
 }
+
+.contact-page .form-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.contact-page h2{
+  text-align: center;
+}
