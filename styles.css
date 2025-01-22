@@ -254,3 +254,28 @@ main {
   color: #777777;
   text-align: justify;
 }
+
+.saper-link {
+  text-align: center;
+  margin: 30px auto;
+  font-size: 1.1em;
+}
+
+.saper-link a {
+  color: #e75b5b;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #e75b5b;
+  color: white;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.saper-link a:hover {
+  background-color: #cc4c4c;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
