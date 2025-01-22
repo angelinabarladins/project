@@ -480,3 +480,135 @@ main {
   resize: vertical;
   min-height: 150px;
 }
+
+.saper-content {
+  border-radius: 5px;
+  padding: 15px;
+  max-width: 1300px;
+}
+
+.saper-rules{
+  display: flex;
+  align-items: flex-start;
+  background-color: #EDE7E0;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 1300px;
+  gap: 20px;
+  position: relative;
+}
+
+.saper-rules img {
+  width: 30%;
+  height: auto;
+  margin-bottom: 10px;
+  float: left;
+  border-radius: 5px;
+}
+
+.saper-rules > div {
+  flex: 1;
+}
+
+.saper-rules h2 {
+  margin-bottom: 20px;
+  font-size: 2em;
+  font-weight: 600;
+  margin-top: 0;
+  color:#000
+}
+
+.saper-rules p {
+  font-weight: 300;
+  text-align:justify;
+  font-size: 1.1em;
+  color:#000;
+}
+
+.saper-images {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start; 
+  margin: 20px auto;
+  max-width: 1300px;
+  padding: 10px;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px; 
+  margin: 0 10px;
+}
+
+.saper-images img {
+  width: 150px;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px; 
+}
+
+.saper-images .image-title{
+  font-weight: 700;
+  text-align: center;
+  font-size: 1.3em;
+  color: #000;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.saper-images .image-text {
+  font-weight: 300;
+  text-align:justify; 
+  font-size: 1.1em;
+  color:#000;
+}
+
+.saper-demo-fullscreen {
+  background-color: #fff;
+  padding: 20px;
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 30px; 
+}
+
+.saper-demo-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.saper-demo-fullscreen video {
+  width: 40%; 
+  max-width:800px;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.saper-demo-fullscreen h2 {
+  margin-bottom: 20px;
+  font-size: 2em;
+  font-weight: 600;
+  margin-top: 0;
+  color:#000;
+  text-align: left;
+}
+
+.saper-content h1{
+  margin-bottom: 20px;
+  font-size: 2em;
+  font-weight: 600;
+  margin-top: 0;
+}
+
+.saper-content p{
+  font-weight: 200;
+  text-align:justify;
+  font-size: 1.1em;
+}
