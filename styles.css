@@ -83,3 +83,84 @@ header nav a img {
   height: 25px;
   display: block;
 }
+
+main {
+  padding: 20px 0;
+  flex: 1;
+}
+
+.hero {
+  position: relative;
+  color: white;
+  background-image: url('images/2.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  padding: 80px 0;
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-bottom: 1px dashed #ddd;
+  z-index: 2;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 0;
+}
+
+.hero-container {
+  text-align: center;
+  width: 90%;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.hero h1,
+.hero p,
+.hero .button {
+  z-index: 1;
+  position: relative;
+}
+
+.hero h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.hero p {
+  font-size: 1.1em;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #e75b5b;
+  color: white;
+  text-decoration: none;
+  font-size: 1.1em;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #cc4c4c;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
