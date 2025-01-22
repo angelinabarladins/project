@@ -692,3 +692,14 @@ main {
   background-color: #cc4c4c;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
+
+footer {
+  background-color: #fff;
+  padding: 15px 0;
+  margin-top: auto;
+}
+
+footer .container {
+  text-align: center;
+  color: #777777;
+}
