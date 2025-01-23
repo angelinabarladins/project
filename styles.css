@@ -75,12 +75,12 @@ header nav a img {
   border: none;
   cursor: pointer;
   margin-left: 10px;
-  margin-right: 0; 
+  margin-right: 0;
 }
 
 .speech-button img {
-  width: 25px;
-  height: 25px;
+  width: 32px;
+  height: 32px;
   display: block;
 }
 
@@ -172,16 +172,13 @@ main {
 }
 
 .games h2 {
-  color: #666360
-}
-
-.games h2 {
+  color: #666360;
   text-align: center;
 }
 
 .games h2,
 .benefits h2,
-.news .news-header .news-title h2{
+.news .news-header .news-title h2 {
   margin-bottom: 20px;
   font-size: 2em;
   font-weight: 600;
@@ -215,11 +212,11 @@ main {
   text-align: left;
   position: relative;
   overflow: hidden;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: box-shadow 0.3s ease; 
 }
 
 .game-card:hover {
-  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); 
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
 }
 
 .game-card::before {
@@ -246,7 +243,9 @@ main {
   margin-bottom: 10px;
   font-weight: 600;
   text-align: center;
+  transition: none; 
 }
+
 
 .game-card p {
   font-size: 0.9rem;
@@ -335,7 +334,7 @@ main {
   margin-bottom: 30px;
 }
 
-.news .container{
+.news .container {
   width: 90%;
   max-width: 1300px;
   margin: 0 auto;
@@ -352,14 +351,14 @@ main {
 .news-header {
   display: flex;
   gap: 20px;
-  align-items: center; 
-  justify-content: space-between; 
+  align-items: center;
+  justify-content: space-between;
 }
 
 .news-header .news-title h2 {
   text-align: left;
   line-height: 1.1;
-  margin-bottom: 0; 
+  margin-bottom: 0;
 }
 
 .news-header .news-title h2:nth-child(2) {
@@ -393,7 +392,7 @@ main {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  gap: 15px; 
+  gap: 15px;
 }
 
 .news-card {
@@ -424,11 +423,6 @@ main {
   font-size: 1rem;
   margin-bottom: 10px;
   font-weight: 600;
-  transition: font-size 0.3s ease;
-}
-
-.news-card:hover h3 {
-  font-size: 1.1rem;
 }
 
 .news-card p {
@@ -452,10 +446,9 @@ main {
   margin: 20px auto;
 }
 
-.contact-page h2{
+.contact-page h2 {
   text-align: center;
 }
-
 
 .form-group {
   margin-bottom: 15px;
@@ -487,7 +480,7 @@ main {
   max-width: 1300px;
 }
 
-.saper-rules{
+.saper-rules {
   display: flex;
   align-items: flex-start;
   background-color: #EDE7E0;
@@ -516,20 +509,20 @@ main {
   font-size: 2em;
   font-weight: 600;
   margin-top: 0;
-  color:#000
+  color: #000
 }
 
 .saper-rules p {
   font-weight: 300;
-  text-align:justify;
+  text-align: justify;
   font-size: 1.1em;
-  color:#000;
+  color: #000;
 }
 
 .saper-images {
   display: flex;
   justify-content: space-around;
-  align-items: flex-start; 
+  align-items: flex-start;
   margin: 20px auto;
   max-width: 1300px;
   padding: 10px;
@@ -539,7 +532,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 300px; 
+  width: 300px;
   margin: 0 10px;
 }
 
@@ -547,10 +540,10 @@ main {
   width: 150px;
   height: auto;
   border-radius: 5px;
-  margin-bottom: 10px; 
+  margin-bottom: 10px;
 }
 
-.saper-images .image-title{
+.saper-images .image-title {
   font-weight: 700;
   text-align: center;
   font-size: 1.3em;
@@ -561,9 +554,9 @@ main {
 
 .saper-images .image-text {
   font-weight: 300;
-  text-align:justify; 
+  text-align: justify;
   font-size: 1.1em;
-  color:#000;
+  color: #000;
 }
 
 .saper-demo-fullscreen {
@@ -572,7 +565,7 @@ main {
   position: relative;
   width: 100%;
   box-sizing: border-box;
-  margin-bottom: 30px; 
+  margin-bottom: 30px;
 }
 
 .saper-demo-content {
@@ -584,8 +577,8 @@ main {
 }
 
 .saper-demo-fullscreen video {
-  width: 40%; 
-  max-width:800px;
+  width: 40%;
+  max-width: 800px;
   height: auto;
   border-radius: 5px;
   margin-bottom: 10px;
@@ -596,20 +589,20 @@ main {
   font-size: 2em;
   font-weight: 600;
   margin-top: 0;
-  color:#000;
+  color: #000;
   text-align: left;
 }
 
-.saper-content h1{
+.saper-content h1 {
   margin-bottom: 20px;
   font-size: 2em;
   font-weight: 600;
   margin-top: 0;
 }
 
-.saper-content p{
+.saper-content p {
   font-weight: 200;
-  text-align:justify;
+  text-align: justify;
   font-size: 1.1em;
 }
 
@@ -655,7 +648,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 200px; 
+  width: 200px;
   background-color: #f9f5f0;
   padding: 10px;
   border-radius: 5px;
@@ -668,9 +661,9 @@ main {
 }
 
 .suggested-content img {
-  width: auto;    
-  height: 150px; 
-  object-fit: cover; 
+  width: auto;
+  height: 150px;
+  object-fit: cover;
   margin-bottom: 10px;
   border-radius: 5px;
 }
@@ -706,7 +699,7 @@ footer .container {
 
 .social-links {
   display: flex;
-  gap: 20px; 
+  gap: 20px;
   justify-content: center;
 }
 
@@ -725,7 +718,7 @@ footer .container {
 }
 
 .social-link:hover {
-  color: #e75b5b; 
+  color: #e75b5b;
   text-decoration: underline;
 }
 
@@ -735,35 +728,86 @@ footer .container {
 }
 
 #audioContainer {
-    display: none; 
-    position: relative;
-    margin-top: 20px;
-    text-align: center;
+  display: none;
+  position: relative;
+  margin-top: 20px;
+  text-align: center;
 }
 
 #audioContainer:target {
-   display: block;
+  display: block;
 }
 
 .audio-wrapper {
-    display: inline-block;
-    text-align: center;
-    position: relative;
+  display: inline-block;
+  text-align: center;
+  position: relative;
 }
 
 .close-audio {
-    display: block;
-    text-decoration: none;
-    color: #333;
-    margin-top: 10px;
-    padding: 5px 10px;
-    border-radius: 5px;
-    background-color: black; 
+  display: block;
+  text-decoration: none;
+  color: #333;
+  margin-top: 10px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: black;
 }
 
 .close-audio:hover {
-   color: #e75b5b;
-    text-decoration: underline;
+  color: #e75b5b;
+  text-decoration: underline;
+}
+
+@media (max-width: 767px) {
+  header {
+    padding: 5px 0;
+  }
+  header .container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  header .logo {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+  }
+  header .logo img {
+    width: 40px;
+    height: 40px;
+  }
+
+  header nav {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 0;
+  }
+
+  header nav a {
+    margin-left: 0;
+    font-size: 1em;
+    padding: 8px 0;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    border-top: 1px solid #eee;
+  }
+  header nav a:first-child {
+    border-top: none;
+  }
+  header nav a img {
+    margin-right: 5px;
+  }
+
+  .speech-button {
+    margin: 5px 0;
+  }
+  .speech-button img {
+    width: 20px; 
+    height: 20px; 
+  }
 }
 
 @media (max-width: 768px) {
@@ -783,17 +827,17 @@ footer .container {
   .hero h1 {
     font-size: 2em;
   }
-  
+
   .news-header {
     flex-direction: column;
     align-items: flex-start;
   }
-  
-  .news-grid{
+
+  .news-grid {
     flex-direction: column;
     gap: 10px;
   }
-  
+
   .news-card {
     width: 90%;
     max-width: 100%;
@@ -817,21 +861,21 @@ footer .container {
   }
 
   .saper-images {
-    flex-direction: column; 
-    align-items: center; 
+    flex-direction: column;
+    align-items: center;
   }
 
   .image-container {
     margin: 10px auto;
-    width: 100%; 
+    width: 100%;
   }
-  
+
   .saper-images img {
     width: 180px;
     margin: 10px auto;
   }
-  
-  .saper-demo-fullscreen .saper-demo-content{
+
+  .saper-demo-fullscreen .saper-demo-content {
     align-items: center;
     margin: auto;
   }
@@ -840,22 +884,69 @@ footer .container {
     width: 100%;
     max-width: 100%;
   }
-  
+
   .saper-demo-fullscreen h2 {
     text-align: center;
   }
-  
-  .suggested-content{
+
+  .suggested-content {
     flex-direction: column;
     align-items: center;
   }
-  
+
   .suggested-content a {
     width: 90%;
   }
-  
+
   .suggested-content img {
-    height: auto; 
+    height: auto;
     max-height: 180px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .game-grid {
+    column-gap: 30px;
+    flex-wrap: wrap;
+  }
+  .news-grid {
+    column-gap: 20px;
+    flex-wrap: wrap;
+  }
+  .saper-rules img {
+    width: 40%;
+  }
+}
+
+@media (max-width: 767px) {
+  .game-grid {
+    column-gap: 10px;
+    flex-direction: column;
+  }
+  .news-grid {
+    flex-direction: column;
+    column-gap: 10px;
+  }
+  .saper-rules {
+    flex-direction: column;
+  }
+  .saper-rules img {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .saper-images {
+    flex-direction: column;
+    align-items: center;
+  }
+  .image-container {
+    margin: 10px 0;
+    width: 100%;
+  }
+  .saper-images img {
+    width: 100%;
+    max-width: 250px;
+  }
+  .saper-demo-fullscreen video {
+    width: 100%;
   }
 }
